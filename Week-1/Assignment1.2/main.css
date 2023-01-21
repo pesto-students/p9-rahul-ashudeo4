@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+}
+
+main {
+    padding: 2rem;
+    height: 300px;
+    width: 100%;
+    background-color:#454545;
+}
+
+aside {
+    height: 87%;
+    width: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+section {
+    padding: 1rem;
+    height: 300px;
+    width: 100%;
+}
+
+footer {
+    padding: 2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #386a99;
+}
+
+#main-area {
+    padding-left: 5rem;
+    padding-top: 2rem;
+    display: flex;
+}
+div > img {
+    height: 15rem;
+    width: 15rem;
+}
+
+#songs-info {
+    margin-left: 5rem;
+}
+
+h2,span {
+    color: white;
+}
+
+span {
+    display: block;
+}
+
+#options {
+    display: flex;
+    margin-top: 10rem;
+}
+
+#options > div {
+    margin-right: 1rem;
+}
+
+table {
+    display: table;
+    margin-left: 5%;
+    width: 90%;
+}
+tbody {
+    width: 100%;
+    display: table;
+}
+tr {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+    height: 1rem;
+}
+
+td {
+    width: 20rem;
+}
+tr:nth-child(even) {
+    background: #f0f0f0;
+}
+tr:nth-child(odd) {
+    background: white;
+}
+footer {
+    display: flex;
+}
+
+footer > div {
+    margin-left: 1rem;
+}
+
+#footer-dashboard {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+#footer-img {
+    width: 7%;
+
+}
+#footer-info {
+    width: 50%;
+}
+#footer-controls {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 3%;
+}
+
+#footer-controls > i {
+    color: white;
+}
+#footer-dashboard > div {
+    width: 100%;
+}
+
+#footer-img > img {
+    width: 6rem;
+    height: 6rem;
+}
