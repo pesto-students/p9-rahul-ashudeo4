@@ -44,7 +44,7 @@ footer {
     background-color: #386a99;
 }
 
-#main-area {
+.main-area {
     padding-left: 5rem;
     padding-top: 2rem;
     display: flex;
@@ -54,7 +54,7 @@ div > img {
     width: 15rem;
 }
 
-#songs-info {
+.songs-info {
     margin-left: 5rem;
 }
 
@@ -66,12 +66,12 @@ span {
     display: block;
 }
 
-#options {
+.options {
     display: flex;
     margin-top: 10rem;
 }
 
-#options > div {
+.options > div {
     margin-right: 1rem;
 }
 
@@ -110,19 +110,19 @@ footer > div {
     margin-left: 1rem;
 }
 
-#footer-dashboard {
+.footer-dashboard {
     display: flex;
     justify-content: space-between;
     width: 85%;
 }
-#footer-img {
+.footer-img {
     width: 7%;
 
 }
-#footer-info {
+.footer-info {
     width: 50%;
 }
-#footer-controls {
+.footer-controls {
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -130,14 +130,14 @@ footer > div {
     padding-top: 3%;
 }
 
-#footer-controls > i {
+.footer-controls > i {
     color: white;
 }
-#footer-dashboard > div {
+.footer-dashboard > div {
     width: 100%;
 }
 
-#footer-img > img {
+.footer-img > img {
     width: 6rem;
     height: 6rem;
 }
