@@ -3,10 +3,14 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #007eae;
+}
 .title {
-    background-color: aquamarine;
+    background-color: #22303c;
     text-align: center;
     padding: 30px;
+    color: white;
 }
 
 .description {
@@ -15,6 +19,7 @@
     margin-right: 50px;
     display: flex;
     justify-content: space-between;
+    color: white;
 
 }
 
@@ -29,6 +34,7 @@ img {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
+    color: white;
 }
 .image {
     display: flex;
@@ -50,9 +56,12 @@ footer {
     margin-top: 60px;
 }
 .about {
-    background-color: aquamarine;
+    background-color: #22303c;
     text-align: center;
     margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
 }
 
 form {
@@ -64,11 +73,24 @@ form {
     margin-top: 20px;
 }
 
+.details {
+    margin-top: 10px;
+    color: white;
+}
 
+.details > input, .details > select {
+    border-radius: 50px;
+}
+
+.btn {
+    margin-top: 10px;
+    width:8rem;
+    height: 3rem;
+    background-color: #ffa436;
+    border-style: none;
+    border-radius: 50px;
+}
 @media only screen and (max-width: 900px) {
-    body {
-        background-color: lightblue;
-    }
     .description {
         flex-direction: column;
     }
