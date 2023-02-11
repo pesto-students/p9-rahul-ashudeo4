@@ -9,17 +9,8 @@ function createStack() {
   function print() {
     return items;
   }
-  return {
-    push(item) {
-      push(item);
-    },
-    pop() {
-      return pop();
-    },
-    print() {
-      return print();
-    },
-  };
+  return { push, pop, print}
+
 }
 
 const stack = createStack();
