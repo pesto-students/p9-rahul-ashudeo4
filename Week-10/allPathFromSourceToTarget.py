@@ -16,3 +16,8 @@ def solve(g,src,des,res,temp):
         solve(g,val,des,res,temp)
         temp.pop()
 
+"""
+Time Complexity - O(n)
+Space Complexity - O(h)
+Link - https://leetcode.com/problems/all-paths-from-source-to-target/description/
+"""
