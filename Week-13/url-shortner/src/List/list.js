@@ -5,7 +5,7 @@ import Stack from '@mui/material/Stack';
 import Url from '../Url/url';
 
 
-export default function List({urlList}) {
+function List({urlList}) {
     return (
         <Box sx={{ width: '100%' }}>
             <Stack spacing={2}>
@@ -14,3 +14,5 @@ export default function List({urlList}) {
         </Box>
     );
 }
+
+export default React.memo(List);
